@@ -3,7 +3,9 @@
 
 	$a = 123;
 	$b = 111;
-	echo $a + $b;
+	$c = 222;
+	$c = $a + $b;
+	echo $c;
 	phpinfo();
 	
  ?>
